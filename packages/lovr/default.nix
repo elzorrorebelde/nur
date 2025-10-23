@@ -27,6 +27,11 @@ stdenv.mkDerivation rec {
     sha256 = "sha256-SyKJv9FmJyLGc3CT0JBNewvjtsmXKxiqaptysWiY4co=";
   };
 
+  postInstall = ''
+    substituteInPlace $out/lib/pkgconfig/openxr.pc \
+      --replace-fail "//" "/"
+  '';
+
   nativeBuildInputs = [
     pkgs.cmake
     pkg-config
