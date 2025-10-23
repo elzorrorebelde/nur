@@ -64,6 +64,7 @@ stdenv.mkDerivation rec {
     "-DFETCHCONTENT_FULLY_DISCONNECTED=ON"
     "-DFETCHCONTENT_SOURCE_DIR_JOLTPHYSICS=${joltSrc}"
     "-DBUILD_WITH_WAYLAND_HEADERS=ON"
+    "-DLOVR_SYSTEM_LUA=ON"
   ];
 
   meta = with lib; {
