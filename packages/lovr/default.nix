@@ -56,7 +56,7 @@ stdenv.mkDerivation rec {
     owner = "jrouwe";
     repo = "JoltPhysics";
     rev = "v5.3.0";
-    sha256 = lib.fakeSha256;
+    sha256 = "sha256-Vh4SLRyA9EtYCaulA7kI3CtCioJvEoSyuAXZJmDRTB8=";
   };
 
   cmakeFlags = [
