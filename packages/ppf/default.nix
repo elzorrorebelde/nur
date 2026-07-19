@@ -2,7 +2,7 @@
 #                                                                        #
 #  This file is part of the elzorrorebelde/nur project                   #
 #                                                                        #
-#  Copyright (C) 2025 Jorge Javier Araya Navarro                         #
+#  Copyright (C) 2026 Jorge Javier Araya Navarro                         #
 #                                                                        #
 #  SPDX-License-Identifier: MIT                                          #
 #                                                                        #
